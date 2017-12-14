@@ -1,0 +1,6 @@
+# Creating mutation to update profile
+mutation UpdateProfile($_id: ID,$loginType: String,$email: String,$name: String,$rank: String,$relegiousObservance: String,$yearsOfExperience: String,$state: String,$bio: String,$profilePic: String){
+    updateProfile(_id: $_id,loginType: $loginType,email: $email,name: $name,rank: $rank,relegiousObservance: $relegiousObservance,yearsOfExperience: $yearsOfExperience,state: $state,bio: $bio,profilePic: $profilePic){
+        ...UserDetails
+    }
+}
