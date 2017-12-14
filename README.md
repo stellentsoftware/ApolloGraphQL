@@ -24,7 +24,7 @@ This app talks to the myappdemo server.
 
 ## Starting the app
 
-You can then open `ApolloGraphQL.xcworkspace` and press the run button to run the app. It should load a list of users and display their names, emails and thier states in a table view. You can also edit their info by clicking on Edit button.
+Open `ApolloGraphQL.xcworkspace` with Xcode and press the run button to run the app. You will find a list of users along with some information like email and State in the UITableView. You can see an edit option to update the user's info.
 
 
 This is a very basic app, but it does demonstrate how you can hook up GraphQL query results to your UI. The code in `UsersListViewController.swift` fetches data based on a GraphQL query defined in `UsersListViewController.graphql`. That query refers to a fragment defined in `UsersListViewController.graphql`, which nicely illustrates how you can describe your data needs next to the UI component that uses them.
